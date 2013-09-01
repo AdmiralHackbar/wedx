@@ -4,7 +4,6 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    # Examples:
     url(r'^$', 'weddingredux.views.indexview.index', name='index'),
     # url(r'^wedx/', include('wedx.foo.urls')),
 
