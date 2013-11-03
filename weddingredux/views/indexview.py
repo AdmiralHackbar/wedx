@@ -7,7 +7,7 @@ def index(request):
     template = loader.get_template("index.html")
     context = RequestContext(request, {
         'page' : {
-            'title' : "WAKAKAKAKAKAKA"
+            'title' : "bells.io - wedding websites that don't suck."
         }
     })
     return HttpResponse(template.render(context))
