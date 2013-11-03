@@ -1,5 +1,7 @@
 # Django settings for wedx project.
 
+from wedxsettings import *
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -83,7 +85,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = '(7*y2hn$vzn@s3h!kkn3^ph0#9q#*7thj4dwu*($44w8g*d+!3'
+SECRET_KEY = SETTING_SECRET_KEY
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (

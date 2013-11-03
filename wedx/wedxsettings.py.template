@@ -1,0 +1,2 @@
+#Settings that can't (or shouldn't) be committed to github
+SETTING_SECRET_KEY = ''
